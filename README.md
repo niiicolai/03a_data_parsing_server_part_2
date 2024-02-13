@@ -15,7 +15,7 @@ $ npm start
 
 # Use Server A directly
 1. Start the development server A
-2. Test one of the URLs below requesting server A to use server B as parser
+2. Test one of the URLs below
     * http://127.0.0.1:5000/csv.json?url=http://127.0.0.1:5000/static/data.csv
     * http://127.0.0.1:5000/json.json?url=http://127.0.0.1:5000/static/data.json
     * http://127.0.0.1:5000/xml.json?url=http://127.0.0.1:5000/static/data.xml
@@ -24,7 +24,7 @@ $ npm start
 
 # Use Server B as parser for Server A
 1. Start the development servers (A & B)
-2. Test one of the URLs below requesting server A to use server B as parser
+2. Test one of the URLs below
     * http://127.0.0.1:5000/csv.json?url=http://127.0.0.1:5000/static/data.csv&server=B&header=Name,Age
     * http://127.0.0.1:5000/json.json?url=http://127.0.0.1:5000/static/data.json&server=B
     * http://127.0.0.1:5000/xml.json?url=http://127.0.0.1:5000/static/data.xml&server=B
@@ -33,7 +33,7 @@ $ npm start
 
 # Use Server B directly
 1. Start the development server B
-2. Test one of the URLs below requesting server A to use server B as parser
+2. Test one of the URLs below
     * http://localhost:3000/csv.json?url=http://localhost:3000/data.csv&header=Name,Age
     * http://localhost:3000/json.json?url=http://localhost:3000/data.json
     * http://localhost:3000/xml.json?url=http://localhost:3000/data.xml
@@ -42,7 +42,7 @@ $ npm start
 
 # Use Server A as parser for Server B
 1. Start the development servers (A & B)
-2. Test one of the URLs below requesting server A to use server B as parser
+2. Test one of the URLs below
     * http://localhost:3000/csv.json?url=http://localhost:3000/data.csv&header=Name,Age&server=A
     * http://localhost:3000/json.json?url=http://localhost:3000/data.json&server=A
     * http://localhost:3000/xml.json?url=http://localhost:3000/data.xml&server=A
